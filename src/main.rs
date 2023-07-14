@@ -34,8 +34,8 @@ fn main() {
             0.0
         };
 
-    println!("number of reads: {}", total);
-    println!("minimum read length: {}", minimum_read_length);
-    println!("maximum read length: {}", maximum_read_length);
-    println!("mean read length: {}", mean);
+    println!("read_count: {}", total);
+    println!("minimum_read_length: {}", minimum_read_length);
+    println!("maximum_read_length: {}", maximum_read_length);
+    println!("mean_read_length: {}", mean);
 }
