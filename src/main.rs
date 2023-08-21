@@ -36,7 +36,7 @@ fn main() {
 
         // empty file that is correctly gzipped would otherwise result in minimum_read_length being
         // usize::MAX
-        if minimum_read_length == usize::MAX {
+        if total == 0 {
             minimum_read_length = 0
         }
 
