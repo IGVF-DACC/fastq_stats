@@ -41,9 +41,9 @@ dependencies = [
 
 [[package]]
 name = "cc"
-version = "1.0.96"
+version = "1.0.97"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "065a29261d53ba54260972629f9ca6bffa69bac13cd1fed61420f7fa68b9f8bd"
+checksum = "099a5357d84c4c61eb35fc8eafa9a79a902c2f76911e5747ced4e032edd8d9b4"
 dependencies = [
  "jobserver",
  "libc",
@@ -68,7 +68,7 @@ dependencies = [
 [[package]]
 name = "fastq"
 version = "0.6.0"
-source = "git+https://github.com/IGVF-DACC/fastq-rs.git#625a353b77ab39fed356f0658123d0aaad02d5ac"
+source = "git+https://github.com/IGVF-DACC/fastq-rs.git#2672c379d3e9dc51a50ec430cdcc5dabd23c074b"
 dependencies = [
  "memchr",
  "niffler",
